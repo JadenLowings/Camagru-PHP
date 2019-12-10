@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="create.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+    <div class="create_account">
+        <form  class="form-container" method="post" action='create.php'>
+            
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" oninput="check()">
+            
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname" id="firstname" oninput="check()">
+            
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" id="lastname" oninput="check()">
+            
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" oninput="check()">
+            
+            <label for="password">Password:</label>
+            <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{16,}" type="password" name="password" id="password" oninput="check()">
+
+            <label for="Cpassword">Confirm Password:</label>
+            <input type="password" name="Cpassword" id="Cpassword" oninput="check()">
+            
+            <button id="confirm" name="confirm" disabled><a href="../landing/landing.php"></a>Confirm</button>
+            <button><a class="button" href="../landing/landing.php">Cancel</a></button>
+            <div class="g-recaptcha" data-sitekey="6Ld6wH0UAAAAAFHHR9KkyMAM0VbdkjWQXBqMNTrv"></div>
+        </form>
+    </div>
+
+    <div class="forgot_password">
+        <h1>Forgot Password</h1>
+        <form  class="form-container2" method="post" action='create.php'>
+            
+            <label for="username">Username:</label>
+            <input type="text" name="fusername" id="fusername" oninput="check()">
+            
+            <label for="email">Email:</label>
+            <input type="text" name="femail" id="femail" oninput="check()">
+            
+            <button id="fconfirm" name="fconfirm">Confirm</button>
+
+        </form>
+    </div>
+    
+    <script src="../JavaScript/confirm.js"></script>
+    <script src="../JavaScript/background_main.js"></script>
+    <div class="errors">
+        <span id="error" style="color:red"></span>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+.body {
+    background-color: green;
+}
+.changecolor {
+    background-color: white;
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-delay: 1000ms;
+}

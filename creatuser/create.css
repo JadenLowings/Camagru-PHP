@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-delay: 1000ms;
+}
+
+label {
+    display: block;
+    margin: 5px 0px;
+}
+.create_account {
+    position: relative;
+    top: 25%;
+    left: 43.5%;
+    /* border: 3px solid #f1f1f1; */
+    z-index: 9;
+    width:20%;
+  }
+  
+  /*styles to form*/
+  .form-container {
+    /* position: relative; */
+    top: 90%;
+    max-width: 300px;
+    padding: 10px;
+    height: 770px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .form-container .button {
+    background-color: red;
+    position: absolute;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 49.5%;
+    margin-bottom:10px;
+    top: 83%;
+    left: 3%;
+  }
+  .form-container #confirm {
+    background-color: blue;
+    color: white;
+    position: relative;
+    padding: 16px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 97%;
+    margin-bottom:10px;
+    top: 10%;
+    left: 2%;
+  }
+  .g-recaptcha {
+    position: relative;
+    left: 0%;
+    top: 7%;
+  }
+  .errors {
+    position: relative;
+    background-color: white;
+    min-height: 3.5%;
+    width: 12.5%;
+    left: 43.5%;
+    top: 2.8%;
+    overflow: hidden;
+  }
+  .forgot_password {
+    position: relative;
+    top: 3%;
+    left: 30%;
+    /* border: 3px solid #f1f1f1; */
+    z-index: 9;
+    width:20%;
+  }
+  .form-container2 {
+    /* position: relative; */
+    top: 90%;
+    max-width: 300px;
+    padding: 10px;
+    height: 280px;
+    background-color: white;
+  }
+  .form-container2 .button {
+    background-color: red;
+    position: absolute;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 49.5%;
+    margin-bottom:10px;
+    top: 83%;
+    left: 3%;
+  }
+  .form-container2 #confirm {
+    background-color: blue;
+    color: white;
+    position: relative;
+    padding: 16px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    width: 97%;
+    margin-bottom:10px;
+    top: 10%;
+    left: 2%;
+  }
+  .form-container2 input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container2 input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .h1 {
+    text-decoration-color: white;
+  }
